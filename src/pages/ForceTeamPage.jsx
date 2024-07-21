@@ -63,9 +63,9 @@ const ForceTeamPage = () => {
                 step == "league" && (
                     <div>
                         <img onClick={() => nav("/social")} src={Imag13} alt="" className='mt-3' />
-                        <img onClick={() => nav("/task")} src={Imag14} alt="" className='mt-3' />
+                        <img onClick={() => nav("/social")} src={Imag14} alt="" className='mt-3' />
                         <img onClick={() => nav("/social")} src={Imag15} alt="" className='mt-3' />
-                        <img onClick={() => nav("/task")} src={Imag16} alt="" className='mt-3' />
+                        <img onClick={() => nav("/social")} src={Imag16} alt="" className='mt-3' />
                         <img onClick={() => nav("/social")} src={Imag17} alt="" className='mt-3' />
 
                     </div>

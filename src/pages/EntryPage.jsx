@@ -8,7 +8,7 @@ const EntryPage = () => {
   const nav = useNavigate()
   return (
 
-    <div style={{ backgroundImage: `url(${Imag2})` }} className='w-screen h-screen bg-[#16240e] px-[1rem]'>
+    <div style={{ backgroundImage: `url(${Imag2})` }} className='w-screen min-h-screen bg-[#16240e] px-[1rem]'>
 
       <div className='flex justify-center items-center pt-[2rem]'>
         <img src={Image1} alt="" className='w-[348px]' />

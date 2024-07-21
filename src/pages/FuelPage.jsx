@@ -19,7 +19,7 @@ const FuelPage = () => {
     const [show, setShow] = useState(false)
     const [data, setData] = useState({ image: "", heading: "", description: "",btn:"",btn2:null })
     return (
-        <div style={{ backgroundImage: `url(${Imag2})` }} className='w-screen h-screen bg-black  px-[1rem] flex flex-col '>
+        <div style={{ backgroundImage: `url(${Imag2})` }} className='w-screen min-h-screen bg-black  px-[1rem] flex flex-col '>
 
             <div className='flex justify-center items-center pt-[2rem] flex-col'>
                 <p className='text-[#6CF926] text-lg w-[90%]'>FUEL SPEED</p>
@@ -53,7 +53,7 @@ const FuelPage = () => {
             </div>
 
 
-            <div className='flex-1  mt-auto flex justify-end items-end mb-[1rem]' >
+            <div className='flex-1  mt-4 flex justify-end items-end mb-[1rem]' >
                 <BottomNav />
             </div>
 

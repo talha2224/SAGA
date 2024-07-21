@@ -17,7 +17,7 @@ const PlayPage = () => {
     const [data, setData] = useState({ image: "", heading: "", description: "", btn: null, btn2: null })
 
     return (
-        <div style={{ backgroundImage: `url(${Imag2})` }} className='w-screen h-screen bg-[black] px-[1rem] flex flex-col'>
+        <div style={{ backgroundImage: `url(${Imag2})` }} className='w-screen min-h-screen bg-[black] px-[1rem] flex flex-col'>
             <div className='flex justify-center items-center pt-[2rem] flex-col'>
                 <img src={Imag3} alt="" className='w-[348px]' />
                 <input type="text" className='w-[13rem] h-[2.3rem] mt-3 rounded-md border border-[#FFCC00] bg-transparent px-3 outline-none text-white' />
@@ -54,7 +54,7 @@ const PlayPage = () => {
                 <img src={Imag6} alt="" className='' />
             </div>
 
-            <div className='flex-1  mt-auto flex justify-end items-end mb-[1rem]' >
+            <div className='flex-1  mt-4 flex justify-end items-end mb-[1rem]' >
                 <BottomNav />
             </div>
 

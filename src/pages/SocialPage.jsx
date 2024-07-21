@@ -7,7 +7,6 @@ import Imag5 from '../assets/Group 485555.png'
 import Imag6 from '../assets/Group 488766.png'
 
 import BottomNav from '../components/BottomNav'
-import { useNavigate } from 'react-router-dom'
 
 const SocialPage = () => {
     const [show, setshow] = useState(false)

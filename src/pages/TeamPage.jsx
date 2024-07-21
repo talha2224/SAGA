@@ -12,7 +12,7 @@ import { useNavigate } from 'react-router-dom'
 const TeamPage = () => {
     const nav = useNavigate()
     return (
-        <div style={{ backgroundImage: `url(${Imag1})` }} className='w-screen h-screen bg-[black] px-[1rem] flex flex-col'>
+        <div style={{ backgroundImage: `url(${Imag1})` }} className='w-screen min-h-screen bg-[black] px-[1rem] flex flex-col'>
             <div className='flex justify-center items-center pt-[2rem] flex-col'>
                 <img src={Imag2} alt="" className='w-[348px]' />
                 <div type="text" className='w-fit gap-x-4 h-[2.3rem] flex justify-between items-center mt-3 rounded-md border bg-[#FFCC00] opacity-80 border-[#FFCC00] bg-transparent px-3 outline-none '>
@@ -34,7 +34,7 @@ const TeamPage = () => {
 
             </div>
 
-            <div className='flex-1  mt-auto flex justify-end items-end mb-[1rem]' >
+            <div className='flex-1  mt-4 flex justify-end items-end mb-[1rem]' >
                 <BottomNav />
             </div>
         </div>
